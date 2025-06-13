@@ -31,7 +31,7 @@ StegX is a command-line tool written in Python for hiding files within images us
 
 2.  **Clone the Repository (Optional):**
     ```bash
-    git clone https://github.com/Delta-Sec/StegX
+    git clone https://github.com/AyhamAsfoor/StegX
     cd stegx_project
     ```
     Alternatively, just download the `stegx.py` script and the `stegx_core` directory.
