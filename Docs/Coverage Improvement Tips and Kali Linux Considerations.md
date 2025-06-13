@@ -216,4 +216,5 @@ jobs:
         path: htmlcov/
 ```
 
-By implementing these coverage improvement tips and Kali Linux-specific considerations, you'll ensure that StegX is thoroughly tested and ready for deployment in security-focused environments.
+_This testing strategy was developed and refined by the StegX team for use in real-world security environments._
+
