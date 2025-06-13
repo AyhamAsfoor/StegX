@@ -69,19 +69,15 @@ This document provides guidance on improving test coverage for StegX and address
 
 - **Test with Kali security tools**: Use Kali's built-in tools to analyze StegX:
   ```bash
-  # Check for common vulnerabilities in Python code
   bandit -r stegx_project/
   
-  # Check for sensitive information leakage
   graudit stegx_project/
   ```
 
 - **Test against steganalysis tools**: Verify resistance against steganalysis tools available in Kali:
   ```bash
-  # Install stegdetect if not already available
   apt-get install stegdetect
   
-  # Test stego images against detection
   stegdetect -t p output_stego_image.png
   ```
 
@@ -90,8 +86,6 @@ This document provides guidance on improving test coverage for StegX and address
 - **Test with different privilege levels**: Verify behavior when run as different users:
   ```python
   def test_privilege_handling():
-      """Test behavior when run with different privileges."""
-      # Test with normal user privileges
       # Test with elevated privileges (if applicable)
       # Test with restricted privileges
   ```
@@ -102,17 +96,14 @@ This document provides guidance on improving test coverage for StegX and address
 
 - **Test installation in Kali environment**: Verify the Debian package installs correctly in Kali:
   ```bash
-  # Test installation
   dpkg -i stegx_1.1.0.deb
-  
-  # Test for conflicts with existing Kali tools
+
   dpkg -l | grep steg
   ```
 
 - **Test integration with Kali workflow**: Verify StegX works well with other Kali tools:
   ```python
   def test_kali_workflow_integration():
-      """Test integration with common Kali workflows."""
       # Test using output from other tools as input
       # Test providing output to other tools
   ```
@@ -122,7 +113,6 @@ This document provides guidance on improving test coverage for StegX and address
 - **Test in realistic scenarios**: Create tests that simulate real penetration testing use cases:
   ```python
   def test_pentest_scenario():
-      """Test StegX in a simulated penetration testing scenario."""
       # Hide sensitive data in an innocuous image
       # Transfer the image through a monitored channel
       # Extract the data on the other side
@@ -135,7 +125,6 @@ This document provides guidance on improving test coverage for StegX and address
 - **Test forensic resistance**: Verify that StegX doesn't leave unnecessary artifacts:
   ```python
   def test_forensic_artifacts():
-      """Test for forensic artifacts left by StegX."""
       # Check for temporary files
       # Check for metadata leakage
       # Check for memory artifacts
@@ -148,7 +137,6 @@ This document provides guidance on improving test coverage for StegX and address
 - **Test network footprint**: Verify StegX doesn't generate suspicious network traffic:
   ```python
   def test_network_footprint():
-      """Test network activity during StegX operation."""
       # Monitor network connections during operation
       # Check for unexpected DNS queries or connections
   ```
@@ -207,7 +195,6 @@ jobs:
     
     - name: Build Debian package
       run: |
-        # Commands to build the Debian package
         
     - name: Upload coverage report
       uses: actions/upload-artifact@v2
