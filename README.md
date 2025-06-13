@@ -135,5 +135,5 @@ This will extract the original file (e.g., `my_document.pdf`) into the `extracte
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/Delta-Sec/StegX/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/AyhamAsfoor/StegX/blob/main/LICENSE) file for details.
 
