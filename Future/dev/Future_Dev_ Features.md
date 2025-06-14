@@ -8,7 +8,7 @@ This document outlines the upcoming features and improvements planned for StegX 
 
 - **Version**: `v1.2.0`
 - **Planned Release**: Q4 2025 (Target: December 12, 2025)
-- **Milestone**: [GitHub Milestone Link](https://github.com/Delta-Sec/StegX/milestone/)
+- **Milestone**: [GitHub Milestone Link](https://github.com/AyhamAsfoor/StegX/milestone/1)
 
 ---
 
@@ -20,7 +20,7 @@ This document outlines the upcoming features and improvements planned for StegX 
 - Detect cover image support automatically.
 - Target: Broaden file format compatibility.
 
-➡️ [Issue #1](https://github.com/Delta-Sec/StegX/issues/1)
+➡️ [Issue #1](https://github.com/AyhamAsfoor/StegX/issues/1)
 
 ---
 
@@ -30,7 +30,7 @@ This document outlines the upcoming features and improvements planned for StegX 
 - Toggle via `--verbose` and `--quiet` CLI flags.
 - Optional dependency fallback.
 
-➡️ [Issue #2](https://github.com/Delta-Sec/StegX/issues/2)
+➡️ [Issue #2](https://github.com/AyhamAsfoor/StegX/issues/2)
 
 ---
 
@@ -39,7 +39,7 @@ This document outlines the upcoming features and improvements planned for StegX 
 - Provide CLI simulation via `--analyze`.
 - Warn users on low-entropy image choices.
 
-➡️ [Issue #3](https://github.com/Delta-Sec/StegX/issues/3)
+➡️ [Issue #3](https://github.com/AyhamAsfoor/StegX/issues/3)
 
 ---
 
@@ -49,7 +49,7 @@ This document outlines the upcoming features and improvements planned for StegX 
 - Ensure crash-resistance and input validation.
 - Extend pytest framework.
 
-➡️ [Issue #4](https://github.com/Delta-Sec/StegX/issues/4)
+➡️ [Issue #4](https://github.com/AyhamAsfoor/StegX/issues/4)
 
 ---
 
