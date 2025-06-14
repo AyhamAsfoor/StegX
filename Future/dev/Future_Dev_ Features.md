@@ -66,7 +66,6 @@ This document outlines the upcoming features and improvements planned for StegX 
 
 - All features are in active development under `dev` branch.
 - Community feedback welcomed via GitHub Issues or Discussions.
-
 ---
 
 ## 📜 License
